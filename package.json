@@ -1,0 +1,15 @@
+{
+  "name": "node-async-jenkins-api",
+  "version": "1.0.0",
+  "description": "jenkins api client support async",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["jenkins", "async", "node"],
+  "author": "Jason916",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
