@@ -52,6 +52,11 @@ const result = await jenkins.getLastBuildInfo(jobName)
 const result = await jenkins.stopBuild(jobName, buildNumber)
 ```
 
+#### buildInfo
+```
+const result = await jenkins.buildInfo(jobName, buildNumber)
+```
+
 #### allJobsInView
 ```
 const result = await jenkins.allJobsInView(viewName)
