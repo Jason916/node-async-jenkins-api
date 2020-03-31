@@ -10,7 +10,7 @@ npm install node-async-jenkins-api
 ```javascript
 const Jenkins = require('node-async-jenkins-api');
 const jenkins = new Jenkins({
-  jenkinsUrl: 'jenkinsUrl',
+  url: 'jenkinsUrl',
   username: 'jenkinsUsername',
   password: 'jenkinsPassword',
   token:  'jenkinsToken'
