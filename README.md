@@ -12,8 +12,7 @@ const Jenkins = require('node-async-jenkins-api');
 const jenkins = new Jenkins({
   url: 'jenkinsUrl',
   username: 'jenkinsUsername',
-  password: 'jenkinsPassword',
-  token:  'jenkinsToken'
+  password: 'jenkinsPassword/jenkinsToken'
 });
 ```
 
@@ -46,6 +45,12 @@ const result = await jenkins.getQueueInfo()
 ```
 const result = await jenkins.getLastBuildInfo(jobName)
 ```
+
+#### getJobInfo
+```
+const result = await jenkins.getJobInfo(jobName)
+```
+
 
 #### stopBuild
 ```
