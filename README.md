@@ -66,3 +66,8 @@ const result = await jenkins.buildInfo(jobName, buildNumber)
 ```
 const result = await jenkins.allJobsInView(viewName)
 ```
+
+#### getBuildingProcess
+```
+const result = await jenkins.getBuildingProcess(jobName)
+```
